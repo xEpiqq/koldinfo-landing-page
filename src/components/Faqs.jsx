@@ -1,58 +1,48 @@
 import Image from 'next/image'
-
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
-      answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+      question: 'What does this software do?',
+      answer: 'It helps you book consistent, quality sales calls without the need for retainers, setters, or paid ads.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Who is it for?',
+      answer: 'Perfect for agency owners, freelancers, or any business owner looking to get more clients.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
-      answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+      question: 'How do you get leads?',
+      answer: 'We aggregate contact info from reliable databases, ensuring a steady flow of potential clients.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+      question: 'Can I filter the data?',
+      answer: 'Yes. Filter by job titles, industries, locations, and more to target the exact audience you need.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+      question: 'What’s the export process like?',
+      answer: 'Simple. Export clean lists of leads with just one click.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+      question: 'How accurate is the information?',
+      answer: 'Our data is sourced from trusted databases, so it’s always fresh and actionable.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+      question: 'Can I integrate this with my CRM?',
+      answer: 'Absolutely. Seamlessly connect it to manage your leads better.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Is there a trial version?',
+      answer: 'We offer free resources, including scripts and strategies, to help you get started.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+      question: 'What support is available?',
+      answer: 'You’ll get access to courses, resources, and a team ready to help whenever you need it.',
     },
   ],
 ]
@@ -78,11 +68,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            If you can’t find what you’re looking for, email our support team, and we’ll be happy to assist.
           </p>
         </div>
         <ul

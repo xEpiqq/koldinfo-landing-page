@@ -12,11 +12,11 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Advanced Filters',
+    summary: 'Find your ideal clients faster with precision filtering.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'Filter by job titles, industries, locations, and more. Quickly narrow down your search and save time.',
+    image: screenshotProfitLoss, // Keeping the original screenshot
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -46,12 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+    name: 'Easy Exports',
+    summary: 'Get ready-to-use lead lists with one click.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'Export clean and organized contact lists tailored to your needs. Perfect for outreach and campaigns.',
+    image: screenshotInventory, // Keeping the original screenshot
     icon: function InventoryIcon() {
       return (
         <>
@@ -74,12 +73,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
-    summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+    name: 'Lead Management',
+    summary: 'Stay organized and track your leads effortlessly.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'Manage all your leads in one place. Track statuses, add notes, and never miss a follow-up.',
+    image: screenshotContacts, // Keeping the original screenshot
     icon: function ContactsIcon() {
       return (
         <>
@@ -216,15 +214,15 @@ export function SecondaryFeatures() {
       className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
-          </p>
-        </div>
+      <div className="mx-auto max-w-2xl md:text-center">
+  <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+    Find your next clients faster than ever.
+  </h2>
+  <p className="mt-4 text-lg tracking-tight text-slate-700">
+    Use powerful tools to filter, organize, and manage your leads. Turn raw data into real opportunities.
+  </p>
+</div>
+
         <FeaturesMobile />
         <FeaturesDesktop />
       </Container>

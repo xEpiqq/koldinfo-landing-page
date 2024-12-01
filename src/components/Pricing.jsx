@@ -108,56 +108,68 @@ export function Pricing() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
               <span className="relative">Simple pricing,</span>
             </span>{' '}
-            for everyone.
+            choose what works for you.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Flexible plans for every business, whether you're starting out or scaling up.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            price="$47"
+            description="Great for individuals and small teams just starting out."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              '10,000 credits per month',
+              'Access to full database',
+              'Export contacts',
+              'Basic support',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Pro"
+            price="$97"
+            description="Perfect for growing businesses ready to scale."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              '50,000 credits per month',
+              'Access to full database',
+              'Advanced filters',
+              'Priority support',
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            name="Unlimited"
+            price="$197"
+            description="For businesses that need unlimited access to grow without limits."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Unlimited credits',
+              'Access to full database',
+              'Advanced filters',
+              'Premium support',
+              'Export unlimited contacts',
             ]}
           />
+        </div>
+        <div className="mt-16 md:text-center">
+          <h3 className="font-display text-xl tracking-tight text-white">
+            Limited-Time Offer
+          </h3>
+          <p className="mt-4 text-lg text-slate-400">
+            Get the AppSumo deal for just $79 — one-time payment for 20,000 credits.
+          </p>
+          <Button
+            href="/appsumo-deal"
+            variant="solid"
+            color="blue"
+            className="mt-8"
+            aria-label="Get the AppSumo deal for $79"
+          >
+            Claim the Deal
+          </Button>
         </div>
       </Container>
     </section>

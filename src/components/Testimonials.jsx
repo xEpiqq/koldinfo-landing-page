@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'With Koldleads, I found the exact clients I was looking for in minutes. It’s like having a personal lead-generation assistant!',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Sarah Collins',
+        role: 'Owner at ClearPath Marketing',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'We closed five high-value deals in the first week of using Koldleads. This tool is a game-changer.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Michael Reeves',
+        role: 'Founder at Growth Haven Agency',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'Koldleads simplifies prospecting so much that I no longer waste hours searching for potential clients. Highly recommend!',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Linda Walker',
+        role: 'CEO at SkyHigh Strategies',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'I love how easy it is to filter leads by industry and job title. It’s like having a crystal-clear roadmap to new clients.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'James Miller',
+        role: 'Sales Director at BrightFuture Tech',
         image: avatarImage2,
       },
     },
@@ -51,19 +51,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'We used to struggle to find quality leads. With Koldleads, we’ve scaled our business faster than ever.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Emily Johnson',
+        role: 'Marketing Specialist at Visionary Solutions',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'The export feature is a lifesaver. In just a few clicks, I had a curated list of potential clients ready to contact.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'John Carter',
+        role: 'Freelancer',
         image: avatarImage4,
       },
     },
@@ -91,9 +91,7 @@ export function Testimonials() {
             Loved by businesses worldwide.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Join the thousands of businesses finding success with Koldleads.
           </p>
         </div>
         <ul
