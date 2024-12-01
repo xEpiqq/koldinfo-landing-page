@@ -27,7 +27,7 @@ export function Hero() {
         </span>{' '}
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Use filters like "Job title" and "Industry" to find the right people in any niche.
+        Use filters like &ldquo;Job title&rdquo; and &ldquo;Industry&rdquo; to find the right people in any niche.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://app.koldinfo.com/sign-up">Get 6 months free</Button>
