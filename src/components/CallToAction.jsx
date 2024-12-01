@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Unlock access to millions of potential leads, organize your outreach, and close more deals faster. 
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="https://app.koldinfo.com/sign-up" color="white" className="mt-10">
             Try it now for free
           </Button>
         </div>

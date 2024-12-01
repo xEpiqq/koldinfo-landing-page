@@ -30,7 +30,7 @@ export function Hero() {
         Use filters like "Job title" and "Industry" to find the right people in any niche.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get 6 months free</Button>
+        <Button href="https://app.koldinfo.com/sign-up">Get 6 months free</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"

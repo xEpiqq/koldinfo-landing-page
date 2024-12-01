@@ -119,7 +119,7 @@ export function Pricing() {
             name="Starter"
             price="$47"
             description="Great for individuals and small teams just starting out."
-            href="/register"
+            href="https://app.koldinfo.com/sign-up"
             features={[
               '10,000 credits per month',
               'Access to full database',
@@ -132,7 +132,7 @@ export function Pricing() {
             name="Pro"
             price="$97"
             description="Perfect for growing businesses ready to scale."
-            href="/register"
+            href="https://app.koldinfo.com/sign-up"
             features={[
               '50,000 credits per month',
               'Access to full database',
@@ -144,7 +144,7 @@ export function Pricing() {
             name="Unlimited"
             price="$197"
             description="For businesses that need unlimited access to grow without limits."
-            href="/register"
+            href="https://app.koldinfo.com/sign-up"
             features={[
               'Unlimited credits',
               'Access to full database',
